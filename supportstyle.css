@@ -58,6 +58,91 @@ html, body {
     padding-left: 0px;
 }
 
+.support .container-fluid {
+    display: block;
+    margin: 100px 0px;
+}
+
+.supportinfo {
+    text-align: center;
+}
+
+.supportinfo h1 {
+    color: green;
+}
+
+.supportinfo p {
+    font-size: x-large;
+    padding: 5px 130px;
+    font-weight: lighter;
+}
+
+.supportcard {
+    padding: 0px 15%;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 0 2px grey;
+    box-shadow: 0 0 2px grey;
+}
+
+.card h1{
+    text-align: center;
+    color: green;
+    font-size: 210%;
+    font-weight: lighter;
+    padding-top: 5%;
+}
+
+.card .content {
+    padding: 5% 5%;
+}
+
+.card ul {
+    display: block;
+    list-style: none;
+    padding: 0px;
+    font-weight: 10%;
+}
+
+.card ul li {
+    text-align: left; 
+}
+
+.card ul li::before {
+    display:		inline-block;		
+  	width:		0; 		
+  	height:		0; 	
+	border-top:		solid transparent;
+	border-bottom: 	solid transparent;
+	border-left:	        solid green;	
+	border-width:	5px;
+	content:		' ';
+	margin-right:	5px;
+}
+
+.card h4 {
+    color: green;
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+.card h4::after {
+    display:		inline-block;		
+  	width:		0; 		
+  	height:		0; 	
+	border-top:		solid transparent;
+	border-bottom: 	solid transparent;
+	border-left:	        solid green;	
+	border-width:	5px;
+	content:		'';
+	margin-left:	5px;
+}
+
+.card a:hover {
+    text-decoration: none;
+}
+
 .info {
     margin-top: 50px;
     background-color: black;
