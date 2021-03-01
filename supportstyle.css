@@ -150,11 +150,8 @@ html, body {
     padding-top: 55px;
 }
 
-.info .information {
+.info .row {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10%;
 }
 
 .info ul {

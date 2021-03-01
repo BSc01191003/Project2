@@ -159,11 +159,8 @@ html, body {
     padding-top: 55px;
 }
 
-.info .information {
+.info .row {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10%;
 }
 
 .info ul {
@@ -185,11 +182,10 @@ html, body {
 
 .info img {
     width: 10%;
+    padding: 3px;
 }
 
 .info .container-fluid {
-    display: flex;
-    justify-content: left;
 }
 
 .contact {
@@ -198,12 +194,12 @@ html, body {
 
 .info .signup {
     display: flex;
-    margin-right: 20%;
-    padding: 0px 4%;
+    padding: 0% 12%;
+    height: 100%;
 }
 
 .info .btn {
-    border-radius: 0%;  
+    border-radius: 0%;
     padding: 0px 20px;
 }
 
@@ -213,8 +209,11 @@ html, body {
 }
 
 .signup h2 {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0px 6%;
+    font-size: 125%;
+    padding: 2% 0px;
+    color: white;
+    font-weight: lighter;
 }
 
 .media {
