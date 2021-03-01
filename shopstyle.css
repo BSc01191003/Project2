@@ -37,7 +37,12 @@ html, body {
 .mainnav h2{
     position: absolute;
     font-weight: lighter;
+    color: white;
     top: 41px;
+}
+
+.mainnav a:hover {
+    text-decoration: none;
 }
 
 
