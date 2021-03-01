@@ -58,100 +58,6 @@ html, body {
     padding-left: 0px;
 }
 
-#slides {
-    height: 580px;
-}
-
-.carousel-inner .carousel-item img{
-    height: 580px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.carousel-indicators .active {
-    background-color: green;
-}
-
-.carousel-indicators li {
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    background-color: grey;
-}
-
-.carousel-indicators li:hover {
-    cursor: pointer;
-}
-
-.carousel-caption {
-    left: 12%;
-    padding-right: 17%;
-    text-align: left;
-    top: 20%;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-}
-
-.carousel-caption .btn {
-    background-color: green;
-    border-radius: 0%;
-}
-
-.carousel-caption .blacktext {
-    color: black;
-}
-
-.carousel-caption .blacktext .display-4{
-    font-size: 130%;
-}
-
-.carousel-caption .blacktext .display-3{
-    font-size: 115%;
-}
-
-.carousel-caption .mainactive .display-4{
-    font-size: 220%;
-}
-
-.carousel-caption .greentext {
-    color: green;
-}
-
-.main h1{
-    color: green;
-}
-
-.shop, .gaming, .news, .datacenter {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.main .container-fluid {
-    margin-top: 30px;
-}
-
-.main {
-    font-weight: lighter;
-}
-
-.main h1{
-    font-weight: lighter;
-}
-
-.card {
-    border-radius: 2%;
-    text-align: left;
-    -webkit-box-shadow: 0 0 4px grey;
-    box-shadow: 0 0 4px grey;
-}
-
-.card:hover {
-    cursor: pointer;
-    -webkit-box-shadow: 0 0 12px grey;
-    box-shadow: 0 0 12px grey;
-}
-
 .info {
     margin-top: 50px;
     background-color: black;
@@ -192,15 +98,6 @@ html, body {
     justify-content: left;
 }
 
-.contact {
-    margin-top: 20px;
-}
-
-.info .signup {
-    display: flex;
-    margin-right: 20%;
-    padding: 0px 4%;
-}
 
 .info .btn {
     border-radius: 0%;  
@@ -212,10 +109,6 @@ html, body {
     border-color: white;
 }
 
-.signup h2 {
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 .media {
     text-align: left;
