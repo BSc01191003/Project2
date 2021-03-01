@@ -1,0 +1,148 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: green;
+}
+
+.container-fluid {
+    padding: 0px 7%;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand img{
+    width: 8%;
+    text-align: left;
+}
+
+
+.mainnav {
+    background-color: black;
+    color: white;
+    height: 87px;
+    align-items: center;
+}
+
+.mainnav .whitenav {
+    background-color: white;
+    height: 36px;
+}
+
+.mainnav h2{
+    position: absolute;
+    font-weight: lighter;
+    top: 41px;
+}
+
+
+#slides {
+    height: 370px;
+}
+
+.carousel-inner .carousel-item img{
+    height: 370px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-indicators .active {
+    background-color: green;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: grey;
+}
+
+.carousel-indicators li:hover {
+    cursor: pointer;
+}
+
+.carousel-caption {
+    left: 12%;
+    padding-right: 17%;
+    text-align: left;
+    top: 10%;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.carousel-caption .btn {
+    background-color: green;
+    border-radius: 0%;
+}
+
+.carousel-caption .greentext {
+    color: green;
+}
+
+.main h1{
+    color: green;
+}
+
+.main .container-fluid {
+    margin-top: 70px;
+}
+
+.main {
+    font-weight: lighter;
+}
+
+.main .btn {
+    border-radius: 0%;
+}
+
+.card {
+    text-align: center;
+    margin-bottom: 70px;
+    border: none;
+    border-radius: 0%;
+}
+
+.card-img-top {
+    height: 20vh;
+    object-fit: contain;
+    width: 100%;
+    padding: 10px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+.info {
+    text-align: center;
+}
+
+.info a{
+    padding-right: 40px;
+    color: green;
+}
+
+.info a:hover {
+    text-decoration: none;
+}
+
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+}
+
+footer .container-fluid {
+    padding-left: 7%;
+    height: 150px;
+}
+
+footer .container-fluid img{
+    width: 11%;
+}
+
